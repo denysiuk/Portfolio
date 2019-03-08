@@ -2,3 +2,188 @@
     margin: 0;
     padding: 0;
 }
+
+body{
+    background: #F9F9F9;
+    font-family: 'Ubuntu', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    color: #222222;
+}
+
+.home{
+    background: url(https://exiber.com/en/wp-content/uploads/2016/09/pexels-photo-3.jpg) no-repeat center center fixed;
+    width: 100%;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+    z-index: -1;
+}
+
+.gridHomeLeft >.img {
+    height: 300px;
+    max-width: 300px;
+    
+    border-radius: 50%;
+    position: absolute;
+    top: 10%;
+    left: 45%;
+    z-index: 2;
+}
+
+.gridHome{
+    display: grid;
+    grid-template-columns: 4fr 3fr;
+    height: 100vh;
+}
+
+.gridHomeLeft{
+    background: #E1E1E1;
+    opacity: 0.85;
+}
+
+.gridHomeLeftDiv{
+
+}
+
+.gridHomeLeftImg > img{
+    border-radius: 50%;
+    width: 300px;
+    height: 300px;
+    opacity: 0.9999;
+}
+
+.gridHomeRight{
+    background: #0892d0;
+    opacity: 0.85;
+    position: relative;
+    z-index: 1;
+}
+
+.navbar{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+.navbar a{
+    text-decoration: none;
+    text-align: center;
+    flex-grow: 1;
+    color: #FFF;
+    font-style: normal;
+    font-weight: bold;
+    line-height: normal;
+    font-size: 18px;
+    letter-spacing: 0.02em;
+}
+
+.letMeKnowContainer{
+    background-color: #FFF;
+    padding-top: 25px;
+}
+
+.letMeKnowText{
+    font-style: normal;
+    font-weight: normal;
+    line-height: normal;
+    font-size: 36px;
+    text-align: center;
+    letter-spacing: 0.02em;
+}
+
+.letMeKnowButtons{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.letMeKnowButtons > button{
+    border: none;
+    text-decoration: none;
+    border-radius: 50px;
+    padding: 0.8em 3em;
+    margin: 3em;
+    transition-duration: 0.4s;
+}
+
+.letMeKnowButtons > .contact{
+    background: #2C88CB;
+    color: #FFF;
+}
+
+.letMeKnowButtons > .contact:hover{
+    background: #FDC32F;
+}
+
+.letMeKnowButtons > .cv{
+    border: 1px solid #2C88CB;
+    background-color: #FFF;
+    color: #2C88CB;
+}
+
+.letMeKnowButtons>.cv:hover {
+    color: #FDC32F;
+    border: 1px solid #FDC32F;
+}
+
+h2{
+    text-align: center;
+    padding-top: 2em;
+    padding-bottom: 0.5em;
+}
+
+.about-me{
+    background-color: #FFF;
+    box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.05);
+    margin: 0 4em;
+    display: flex;
+}
+
+.about-me-info{
+    padding: 2em 6em;
+}
+
+.about-me-info > p{
+    font-weight: bold;
+    letter-spacing: 0.02em;
+    line-height: 29px;
+    font-size: 18px;
+    padding: 0.3em 0;
+}
+
+.about-me-info span{
+    color: #2C88CB;
+}
+
+.about-me hr{
+    border: none;
+    border-left: 1px solid #2C88CB;
+    width: 1px;
+    height: 300px;
+    margin-top: 1.5em;
+}
+
+.about-me-text{
+    font-size: 18px;
+    letter-spacing: 0.04em;
+    display: flex;
+    align-items: center;
+    margin: 0 2em;
+}
+
+.grid {
+    display: grid;
+    grid-template: 1fr 1fr / 1fr 1fr 1fr;
+    grid-row-gap: 3em;
+    justify-items: center;
+}
+
+.white-box{
+    background-color: #fff;
+}
+
