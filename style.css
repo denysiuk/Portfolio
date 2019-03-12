@@ -59,13 +59,17 @@ h2 {
 }
 
 .gridHomeLeft {
-    background: #E1E1E1;
-    opacity: 0.85;
+    background: rgba(255, 255, 255, 0.85);
+    opacity: 1;
     display: flex;
     justify-content: center;
     align-items: center;
     padding-bottom: 8em;
     padding-right: 10em;
+}
+
+.gridHomeLeftDiv{
+    opacity: 0;
 }
 
 .gridHomeLeftDiv h1 {
@@ -317,7 +321,8 @@ h2 {
 
 .grid-container {
     display: grid;
-    grid-template: 1fr 1fr/ 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
     grid-gap: 1em;
     padding: 0 1em;
 }
